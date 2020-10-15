@@ -1,0 +1,23 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "bkgrnd gen",
+  "main": "script.js",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js $$ live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoltarro/project1.git"
+  },
+  "author": "rg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoltarro/project1/issues"
+  },
+  "homepage": "https://github.com/Zoltarro/project1#readme"
+}
